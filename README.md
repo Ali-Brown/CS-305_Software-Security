@@ -1,15 +1,15 @@
 # CS-305_Software-Security
 ## Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
--
+- Artemis Financial is a consulting company that develops individualized financial plans like savings, retirement, investments, and insurance for their customers. Artemis Financial wants to modernize their RESTfull web application to protect from new security threats.
 ## What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
--
+- using the "Vulnerability Assessment Process Flow Diagram," I was able to recognize the precise areas of security that apply to Artemis Financials including input validation, code quality, APIs and cryptography. The strongest foundation for any software security begins with code quality and secure coding practices. Implementing software security throughout the lifecycle of a software system ensures that most known vulnearbilies that may be exploited by attackers are properly blocked, mitigated, and quickly reported.
 ## What part of the vulnerability assessment was challenging or helpful to you?
--
+- The cryptography area of the vulnerability assessment was most challenging and then helpful because it introduced me to the encryption/decryption processes for stored data and the factors to consider when choosing algorithms cipher.
 ## How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
--
+- After recongizing the area of vulnerabity and preparing a report, I increased the layer of security by running a static dependency check to see the vulnerabilities reported on the dependency packages used in the application. Using the report of the dependency check and a conducting a manual code review helped to conclude on the mitigation techniques to use.
 ## How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
--
+- I made certain the code and software application were functional and secure ensuring the code runs without any reported errors and comparing the static check report before and after to ensure that no new vulnerabilities are introduced.
 ## What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
--
+- Tools such as the "Vulnerability Assessment Process Flow Diagram," the "Maven Dependency Check Plugin" for static testing, and the SHA-256 algorithm cipher.
 ## Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
--
+- I'll like to show the "Artemis Financial Vulnerability Assessment Report" uploaded in this repository to show my skill in software security.
